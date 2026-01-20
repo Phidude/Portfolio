@@ -189,5 +189,18 @@ nav .navlinks li a{
         margin-bottom:15px;
         text-align: center;
     }
-    nav .navlinks.open{}
+    nav .navlinks.open{
+        right:0;
+    }
+}
+@media(max-width:768px)
+{
+    .container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .hero-text{
+        padding:40px 0px;
+    }
+
 }
